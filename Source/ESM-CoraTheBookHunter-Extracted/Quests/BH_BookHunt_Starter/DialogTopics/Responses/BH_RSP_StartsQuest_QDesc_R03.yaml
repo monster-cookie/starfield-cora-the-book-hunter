@@ -1,0 +1,15 @@
+FormKey: 00085B:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartsQuest_QDesc_R03
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000858:CoraTheBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This map is your key to finding a book of legendary status.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

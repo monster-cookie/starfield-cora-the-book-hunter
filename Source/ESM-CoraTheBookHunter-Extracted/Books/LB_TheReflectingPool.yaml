@@ -40,7 +40,7 @@ Model:
   FLLD: 0x01000000
 Description:
   TargetLanguage: English
-  Value: TBD
+  Value: Coming Soon
 Keywords:
 - 11A47A:Starfield.esm
 - 1FC86C:Starfield.esm
@@ -53,4 +53,4 @@ Teaches:
   MutagenObjectType: BookTeachesNothing
 CNAM:
   TargetLanguage: English
-  Value: TBD
+  Value: Coming Soon

@@ -1,0 +1,15 @@
+FormKey: 000864:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartQuest_NAccepts_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000863:CoraTheBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: I was hoping you'd say that. Thank you so much!
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

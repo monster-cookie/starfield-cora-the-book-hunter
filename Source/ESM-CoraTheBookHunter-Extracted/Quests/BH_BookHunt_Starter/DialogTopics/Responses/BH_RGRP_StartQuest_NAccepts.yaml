@@ -1,0 +1,12 @@
+FormKey: 000863:CoraTheBookHunter.esm
+MajorRecordFlagsRaw: 64
+EditorID: BH_RGRP_StartQuest_NAccepts
+StarfieldMajorRecordFlags:
+- 0x40
+Flags:
+  Flags:
+  - ChildInfosDontInheritResetData
+  - ForceAllChildrenRandom
+SubtitlePriority: Low
+MajorFlags:
+- InfoGroup

@@ -1,12 +1,12 @@
-FormKey: 000837:CoraTheBookHunter.esm
-EditorID: LB_TheMountainDwarf
+FormKey: 000869:CoraTheBookHunter.esm
+EditorID: LB_TheGreenFlash
 VirtualMachineAdapter:
   Scripts:
   - Name: Book_ApplySpellOnReadScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
       Name: AttchedToBook
-      Object: 000837:CoraTheBookHunter.esm
+      Object: 000869:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerRef
       Object: 000014:Starfield.esm
@@ -15,13 +15,13 @@ VirtualMachineAdapter:
       Object: 1DC467:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SpellToApply_LargeDuration
-      Object: 000842:CoraTheBookHunter.esm
+      Object: 000844:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SpellToApply_MediumDuration
-      Object: 000841:CoraTheBookHunter.esm
+      Object: 000843:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: SpellToApply_SmallDuration
-      Object: 000834:CoraTheBookHunter.esm
+      Object: 00082E:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: Venpi_DebugEnabled
       Object: 000800:VenpiCore.esm
@@ -34,7 +34,7 @@ Transforms:
 XALG: 0x0800000000000000
 Name:
   TargetLanguage: English
-  Value: The Mountain Dwarf
+  Value: The Green Flash
 Model:
   File: SetDressing\Books\BookSmall01.nif
   FLLD: 0x01000000

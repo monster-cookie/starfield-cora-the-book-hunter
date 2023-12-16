@@ -1,0 +1,15 @@
+FormKey: 000856:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartsQuest_Greeting_R07
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00084F:CoraTheBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Will this map be your gateway to history?
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

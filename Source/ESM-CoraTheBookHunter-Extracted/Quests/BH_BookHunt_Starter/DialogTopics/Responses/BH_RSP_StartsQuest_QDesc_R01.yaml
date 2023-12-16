@@ -1,0 +1,15 @@
+FormKey: 000859:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartsQuest_QDesc_R01
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000858:CoraTheBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Please navigate this map which leads to a forgotten tome of legend.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

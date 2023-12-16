@@ -1,0 +1,15 @@
+FormKey: 000854:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartsQuest_Greeting_R05
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00084F:CoraTheBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: 'Interested in a treasure hunt? '
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

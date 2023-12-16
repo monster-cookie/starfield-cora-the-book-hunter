@@ -1,0 +1,15 @@
+FormKey: 00085A:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartsQuest_QDesc_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 000858:CoraTheBookHunter.esm
+Responses:
+- Emotion: 18E866:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: This map points to an ancient, mythical book that I'm dying to read.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low

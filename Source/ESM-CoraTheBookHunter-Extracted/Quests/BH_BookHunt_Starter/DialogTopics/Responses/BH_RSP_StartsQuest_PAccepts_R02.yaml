@@ -1,0 +1,15 @@
+FormKey: 000860:CoraTheBookHunter.esm
+EditorID: BH_RSP_StartsQuest_PAccepts_R02
+Flags:
+  Flags:
+  - Random
+DialogGroup: 00085E:CoraTheBookHunter.esm
+Responses:
+- Emotion: 0C866F:Starfield.esm
+  Text:
+    TargetLanguage: English
+    Value: Sounds Fun, I'm in.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+SubtitlePriority: Low
