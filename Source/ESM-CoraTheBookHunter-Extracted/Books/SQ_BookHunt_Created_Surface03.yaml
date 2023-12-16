@@ -1,0 +1,33 @@
+FormKey: 00081A:CoraTheBookHunter.esm
+EditorID: SQ_BookHunt_Created_Surface03
+ObjectBounds:
+  First: -0.057495117, -0.14001465, 0.0011901855
+  Second: 0.057495117, 0.14001465, 0.0284729
+ODTY: 0
+Transforms:
+  Inventory: 0C6500:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Value: Directions to stash location
+Model:
+  File: SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif
+  FLLD: 0x01000000
+Description:
+  TargetLanguage: English
+  Value: 'The <Alias=LegendaryBook> is in a safe place in the <Alias=DungeonLocation> on <Alias=TargetPlanet>. '
+PickupSound:
+  Start: 3ab34823-87d6-d2c0-6fc0-21a73d163797
+DropdownSound:
+  Start: 6c474054-5b00-4ba2-302a-3ac846a9f190
+Keywords:
+- 11A47A:Starfield.esm
+- 1FC86C:Starfield.esm
+Value: 370
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+CNAM:
+  TargetLanguage: English
+  Value: ''

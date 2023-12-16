@@ -1,0 +1,204 @@
+FormKey: 000800:CoraTheBookHunter.esm
+EditorID: SQ_BookHunt_Surface_SameSystem
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SQ_BookHuntSurfaceQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DungeonLocation
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LegendaryBook
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: DungeonBossChestContainer
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookHuntMap
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 4
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookHuntMapOriginal
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ActiveBookHunts
+      Object: 000801:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+  Script:
+    Name: SQ_BookHunt_Surface_SameSystem_FRAGMENTS
+  Fragments:
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: SQ_BookHunt_Surface_SameSystem_FRAGMENTS
+    FragmentName: Fragment_Stage_0100_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 2
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+  - Property:
+      Name: ''
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 5
+    Scripts:
+    - Name: DefaultAliasMapMarkerScript
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: MapMarkerCategory
+  - Property:
+      Name: ''
+      Object: 000800:CoraTheBookHunter.esm
+      Alias: 6
+    Scripts:
+    - Name: DefaultAliasOnContainerChangedTo
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 100
+Data:
+  Flags:
+  - 0x20000
+  - 0x80000
+  Priority: 10
+  Unused: 0x000000
+QuestType: 0475F8:Starfield.esm
+Event: SCPT
+UnusedConditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThanOrEqualTo
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: GetEventDataConditionData
+    Function: GetValue
+    Member: Value2
+  ComparisonValue: 2
+Stages:
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Recover the <Alias=LegendaryBook> from <Alias=DungeonLocation> on <Alias=TargetPlanet>
+  Targets:
+  - AliasID: 2
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  Name: DungeonLocation
+  Flags:
+  - ReservesLocationOrReference
+  - StoresText
+  - IsCompanion
+  - 0x20000000
+  ALFG: 0
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x030000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      FirstParameter: 05AF1F:Starfield.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x030000
+    Unknown2: 17624
+    Data:
+      MutagenObjectType: LocationHasRefTypeConditionData
+      FirstParameter: 02271F:Starfield.esm
+    ComparisonValue: 1
+  ALPS:
+    Conditions:
+    - MutagenObjectType: ConditionGlobal
+      CompareOperator: LessThan
+      Unknown1: 0x030000
+      Unknown2: 17624
+      Data:
+        MutagenObjectType: GetDistanceGalacticParsecConditionData
+        FirstParameter: 000014:Starfield.esm
+      ComparisonValue: 18B473:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x030000
+      Unknown2: 17624
+      Data:
+        MutagenObjectType: BodyHasKeywordConditionData
+        FirstParameter: 062F2F:Starfield.esm
+  SystemLocationAliasID: -2
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: DungeonBossChestContainer
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 05AF1F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: DungeonMapMarker
+  Flags: []
+  ALFG: 0
+  Location:
+    AliasID: 0
+    RefType: 02271F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: LegendaryBook
+  Flags:
+  - StoresText
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x52310000
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: BookHuntMapOriginal
+  Flags:
+  - StoresText
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x52320000
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: TargetPlanet
+  Flags:
+  - StoresText
+  - AllowCleared
+  - 0x40000000
+  ALFG: 0
+  ParentSystemLocationAliasID: 0
+  LocationTypeKeyword: 070A54:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: BookHuntMap
+  Flags:
+  - UsesStoredText
+  - CreateRefTemp
+  ALFG: 0
+  CreateReferenceToObject:
+    Object: 00081D:CoraTheBookHunter.esm
+    AliasID: 1
+  VoiceTypes: Null

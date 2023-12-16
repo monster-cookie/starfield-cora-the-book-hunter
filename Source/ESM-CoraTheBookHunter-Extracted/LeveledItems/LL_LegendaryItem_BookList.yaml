@@ -1,0 +1,19 @@
+FormKey: 000805:CoraTheBookHunter.esm
+EditorID: LL_LegendaryItem_BookList
+ODTY: 0
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Level: 1
+  Reference: 00081D:BooksRevamped.esm
+  Count: 1
+- Level: 25
+  Reference: 000845:CoraTheBookHunter.esm
+  Count: 1
+- Level: 75
+  Reference: 000837:CoraTheBookHunter.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

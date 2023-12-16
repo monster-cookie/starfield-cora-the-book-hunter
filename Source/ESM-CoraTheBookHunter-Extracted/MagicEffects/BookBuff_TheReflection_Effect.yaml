@@ -1,0 +1,21 @@
+FormKey: 000846:CoraTheBookHunter.esm
+EditorID: BookBuff_TheReflection_Effect
+Name:
+  TargetLanguage: English
+  Value: The Reflection
+Keywords:
+- 000847:CoraTheBookHunter.esm
+ActorValue2: 00035F:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoArea
+- NoRecast
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: ''

@@ -1,0 +1,21 @@
+FormKey: 00082F:CoraTheBookHunter.esm
+EditorID: BookBuff_GreenFlash_SpeedBoost
+Name:
+  TargetLanguage: English
+  Value: Green Flash - Jump Height
+Keywords:
+- 000830:CoraTheBookHunter.esm
+ActorValue2: 040CDC:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoArea
+- NoRecast
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag>% Jump Height for <dur>

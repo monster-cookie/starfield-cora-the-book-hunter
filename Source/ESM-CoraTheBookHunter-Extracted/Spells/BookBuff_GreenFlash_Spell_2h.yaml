@@ -1,0 +1,25 @@
+FormKey: 000844:CoraTheBookHunter.esm
+EditorID: BookBuff_GreenFlash_Spell_2h
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Green Flash
+Keywords:
+- 000832:CoraTheBookHunter.esm
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: Comsume the power of the book increasing you speed and jump height.
+Flags:
+- ManualCostCalc
+- InstantCast
+CastType: FireAndForget
+Effects:
+- BaseEffect: 00082F:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 25
+    Duration: 7200
+- BaseEffect: 000831:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 25
+    Duration: 7200

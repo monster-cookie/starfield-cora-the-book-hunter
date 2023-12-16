@@ -1,0 +1,56 @@
+FormKey: 000837:CoraTheBookHunter.esm
+EditorID: LB_TheMountainDwarf
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Book_ApplySpellOnReadScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: AttchedToBook
+      Object: 000837:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PlayerRef
+      Object: 000014:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpellToApplyOnFailure
+      Object: 1DC467:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpellToApply_LargeDuration
+      Object: 000842:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpellToApply_MediumDuration
+      Object: 000841:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SpellToApply_SmallDuration
+      Object: 000834:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+ObjectBounds:
+  First: -0.008951, -0.064775, -4.1E-05
+  Second: 0.008596, 0.056135, 0.172444
+ODTY: 0
+Transforms:
+  Inventory: 03D203:Starfield.esm
+XALG: 0x0800000000000000
+Name:
+  TargetLanguage: English
+  Value: The Mountain Dwarf
+Model:
+  File: SetDressing\Books\BookSmall01.nif
+  FLLD: 0x01000000
+Description:
+  TargetLanguage: English
+  Value: TBD
+Keywords:
+- 11A47A:Starfield.esm
+- 1FC86C:Starfield.esm
+- 000808:CoraTheBookHunter.esm
+Value: 159
+Weight: 0.44
+Flags:
+- 0x20
+Teaches:
+  MutagenObjectType: BookTeachesNothing
+CNAM:
+  TargetLanguage: English
+  Value: TBD

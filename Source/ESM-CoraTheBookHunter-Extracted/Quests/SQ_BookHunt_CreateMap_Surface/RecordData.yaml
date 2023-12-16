@@ -1,0 +1,50 @@
+FormKey: 000829:CoraTheBookHunter.esm
+EditorID: SQ_BookHunt_CreateMap_Surface
+VirtualMachineAdapter:
+  Scripts:
+  - Name: SQ_BookHunt_CreateMapScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LocTypeSettlement
+      Object: 022611:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapContainer
+      Object: 000829:CoraTheBookHunter.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MapLocation
+      Object: 000829:CoraTheBookHunter.esm
+      Alias: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookHuntMap
+      Object: 000811:CoraTheBookHunter.esm
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  Script:
+    Name: ''
+Data:
+  Unused: 0x000000
+Event: SCPT
+Summary: Places a treasure map in a vendor's container. Quest will shut down and remove the treasure map when the player leaves the vendor's location since we need to limit the number of treasure maps to the number of treasure map quests.
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: MapContainer
+  Flags:
+  - AllowDisabled
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x52310000
+  VoiceTypes: Null
+- MutagenObjectType: QuestLocationAlias
+  ID: 1
+  Name: MapLocation
+  Flags:
+  - AllowReserved
+  - AllowCleared
+  ALFG: 0
+  FindMatchingRefFromEvent:
+    FromEvent: SCPT
+    EventData: 0x4C310000

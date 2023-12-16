@@ -1,0 +1,10 @@
+FormKey: 00082B:CoraTheBookHunter.esm
+EditorID: SQ_BookHuntCondition_Surface
+Conditions:
+- MutagenObjectType: ConditionGlobal
+  CompareOperator: LessThan
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 000801:CoraTheBookHunter.esm
+  ComparisonValue: 00082C:CoraTheBookHunter.esm

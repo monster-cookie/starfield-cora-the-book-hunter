@@ -1,0 +1,45 @@
+FormKey: 000834:CoraTheBookHunter.esm
+EditorID: BookBuff_StoneForm_Spell_30s
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Stone Form
+Keywords:
+- 000832:CoraTheBookHunter.esm
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: Consume the power of the book and become as strong as stone
+Flags:
+- ManualCostCalc
+- InstantCast
+CastType: FireAndForget
+Effects:
+- BaseEffect: 00083A:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30
+- BaseEffect: 00083B:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30
+- BaseEffect: 00083C:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30
+- BaseEffect: 00083E:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30
+- BaseEffect: 00083D:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30
+- BaseEffect: 000838:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30
+- BaseEffect: 000839:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 30

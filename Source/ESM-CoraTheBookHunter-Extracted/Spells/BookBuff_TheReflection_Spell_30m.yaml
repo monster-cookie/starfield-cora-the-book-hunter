@@ -1,0 +1,21 @@
+FormKey: 000848:CoraTheBookHunter.esm
+EditorID: BookBuff_TheReflection_Spell_30m
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: The Reflection
+Keywords:
+- 000832:CoraTheBookHunter.esm
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: Consume the power of the book and become as reflective as a pool
+Flags:
+- ManualCostCalc
+- InstantCast
+CastType: FireAndForget
+Effects:
+- BaseEffect: 000846:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 10
+    Duration: 1800
