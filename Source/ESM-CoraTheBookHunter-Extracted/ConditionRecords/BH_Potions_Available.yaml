@@ -1,0 +1,30 @@
+FormKey: 000882:CoraTheBookHunter.esm
+EditorID: BH_Potions_Available
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 00087F:CoraTheBookHunter.esm
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 000880:CoraTheBookHunter.esm
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 000881:CoraTheBookHunter.esm
+  ComparisonValue: 5

@@ -5,8 +5,8 @@ VirtualMachineAdapter:
   - Name: Book_ApplySpellOnReadScript
     Properties:
     - MutagenObjectType: ScriptObjectProperty
-      Name: AttchedToBook
-      Object: 000869:CoraTheBookHunter.esm
+      Name: FL_AvailableSpells
+      Object: 000883:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: PlayerRef
       Object: 000014:Starfield.esm
@@ -14,17 +14,17 @@ VirtualMachineAdapter:
       Name: SpellToApplyOnFailure
       Object: 1DC467:Starfield.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: SpellToApply_LargeDuration
-      Object: 000844:CoraTheBookHunter.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpellToApply_MediumDuration
-      Object: 000843:CoraTheBookHunter.esm
-    - MutagenObjectType: ScriptObjectProperty
-      Name: SpellToApply_SmallDuration
-      Object: 00082E:CoraTheBookHunter.esm
-    - MutagenObjectType: ScriptObjectProperty
       Name: Venpi_DebugEnabled
       Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BookReadCount
+      Object: 00087F:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoraAgreedToGivePotionRecipies
+      Object: 00088C:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CoraPotionsAvailable
+      Object: 00088D:CoraTheBookHunter.esm
 ObjectBounds:
   First: -0.008951, -0.064775, -4.1E-05
   Second: 0.008596, 0.056135, 0.172444

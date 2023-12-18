@@ -1,0 +1,35 @@
+FormKey: 00088F:CoraTheBookHunter.esm
+EditorID: co_Chem_TheReflection_PL3
+Description:
+  TargetLanguage: English
+  Value: Coming Soon
+WorkbenchKeyword: 102158:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 000881:CoraTheBookHunter.esm
+  ComparisonValue: 25
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 00088C:CoraTheBookHunter.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 005589:Starfield.esm
+  Count: 5
+- Component: 005591:Starfield.esm
+  Count: 5
+- Component: 0055AE:Starfield.esm
+  Count: 2
+- Component: 00558C:Starfield.esm
+  Count: 1
+CreatedObject: 000887:CoraTheBookHunter.esm
+AmountProduced: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 10215A:Starfield.esm
+RECF: 0

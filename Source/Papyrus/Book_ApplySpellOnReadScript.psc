@@ -5,22 +5,19 @@ ScriptName Book_ApplySpellOnReadScript Extends ObjectReference
 ;;; Global Variables
 ;;;
 GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
-String Property Venpi_ModName="CoraWantsAllTheBooks" Auto Const Mandatory
+String Property Venpi_ModName="CoraTheBookHunter" Auto Const Mandatory
+
+GlobalVariable Property BookReadCount Auto Const Mandatory
+GlobalVariable Property CoraAgreedToGivePotionRecipies Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
 ;;; Properties
 ;;;
 Actor Property PlayerRef Auto Const Mandatory
-Book Property AttchedToBook Auto Const Mandatory
-
-Int Property ChanceSmallDuration=80 Auto Const Mandatory
-Spell Property SpellToApply_SmallDuration Auto Const Mandatory
-Int Property ChanceMediumDuration=40 Auto Const Mandatory
-Spell Property SpellToApply_MediumDuration Auto Const Mandatory
-Int Property ChanceLargeDuration=20 Auto Const Mandatory
-Spell Property SpellToApply_LargeDuration Auto Const Mandatory
+FormList Property FL_AvailableSpells Auto Const Mandatory
 Spell Property SpellToApplyOnFailure Auto Const Mandatory
+Message Property CoraPotionsAvailable Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -36,20 +33,17 @@ Event OnActivate(ObjectReference ActionRef)
 EndEvent
 
 Event OnRead()
-  If (Game.GetDieRollSuccess(ChanceLargeDuration, 1, 100, -1, -1))
-    ; PlayerRef.AddSpell(SpellToApply_LargeDuration, False)
-    self.CastOrAddSpell(SpellToApply_LargeDuration, PlayerRef, PlayerRef, False)
-    VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Event OnRead Triggered. Applied Large duration spell " + SpellToApply_LargeDuration + ".", 0, Venpi_DebugEnabled.GetValueInt())
-  ElseIf (Game.GetDieRollSuccess(ChanceMediumDuration, 1, 100, -1, -1))
-    ; PlayerRef.AddSpell(SpellToApply_MediumDuration, False)
-    self.CastOrAddSpell(SpellToApply_MediumDuration, PlayerRef, PlayerRef, False)
-    VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Event OnRead Triggered. Applied Medium duration spell " + SpellToApply_MediumDuration + ".", 0, Venpi_DebugEnabled.GetValueInt())
-  ElseIf (Game.GetDieRollSuccess(ChanceSmallDuration, 1, 100, -1, -1))
-    ; PlayerRef.AddSpell(SpellToApply_SmallDuration, False)
-    self.CastOrAddSpell(SpellToApply_SmallDuration, PlayerRef, PlayerRef, False)
-    VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Event OnRead Triggered. Applied Short duration spell " + SpellToApply_SmallDuration + ".", 0, Venpi_DebugEnabled.GetValueInt())
+  If (Game.GetDieRollSuccess(80, 1, 100, -1, -1))
+    Spell spellToCast = FL_AvailableSpells.GetAt(Utility.RandomInt(0, FL_AvailableSpells.GetSize())) as Spell
+    self.CastOrAddSpell(spellToCast, PlayerRef, PlayerRef, False)
+    BookReadCount.SetValueInt(BookReadCount.GetValueInt() + 1)
+    VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Event OnRead Triggered. Applied spell " + spellToCast + ".", 0, Venpi_DebugEnabled.GetValueInt())
+    If (BookReadCount.GetValueInt() >= 5 && CoraAgreedToGivePotionRecipies.GetValueInt() == 0)
+      ;; Display message from Cora about loading distilled potion recipies on the chemistry bench
+      CoraPotionsAvailable.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+      CoraAgreedToGivePotionRecipies.SetValueInt(1)
+    EndIf
   Else
-    ; PlayerRef.AddSpell(SpellToApplyOnFailure, False)
     self.CastOrAddSpell(SpellToApplyOnFailure, PlayerRef, PlayerRef, True)
     VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Event OnRead Triggered. Player has the author's luck and the spell fizzled.", 0, Venpi_DebugEnabled.GetValueInt())
   EndIf

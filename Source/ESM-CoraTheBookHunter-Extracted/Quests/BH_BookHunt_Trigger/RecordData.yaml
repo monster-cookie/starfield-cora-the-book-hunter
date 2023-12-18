@@ -1,0 +1,38 @@
+FormKey: 00087B:CoraTheBookHunter.esm
+EditorID: BH_BookHunt_Trigger
+VirtualMachineAdapter:
+  Script:
+    Name: BH_BookHunt_Trigger_FRAGMENTS
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Venpi_DebugEnabled
+      Object: 000800:VenpiCore.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FL_Coras_Treasure_Letters
+      Object: 00087D:CoraTheBookHunter.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_SQ_BookHunt_Surface_Any
+      Object: 000811:CoraTheBookHunter.esm
+  Fragments:
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: BH_BookHunt_Trigger_FRAGMENTS
+    FragmentName: Fragment_Stage_0010_Item_00
+Name:
+  TargetLanguage: English
+  Value: ''
+Data:
+  Unused: 0x000000
+Event: CLOC
+UnusedConditions: []
+Stages:
+- Index: 10
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases: []

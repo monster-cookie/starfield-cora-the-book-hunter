@@ -1,0 +1,33 @@
+FormKey: 00089D:CoraTheBookHunter.esm
+EditorID: co_Chem_GreenFlash_PL1
+Description:
+  TargetLanguage: English
+  Value: Coming Soon
+WorkbenchKeyword: 102158:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  CompareOperator: GreaterThanOrEqualTo
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 00087F:CoraTheBookHunter.esm
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetGlobalValueConditionData
+    FirstParameter: 00088C:CoraTheBookHunter.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 005589:Starfield.esm
+  Count: 1
+- Component: 005591:Starfield.esm
+  Count: 5
+- Component: 0055B2:Starfield.esm
+  Count: 1
+CreatedObject: 000899:CoraTheBookHunter.esm
+AmountProduced: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 10215A:Starfield.esm
+RECF: 0

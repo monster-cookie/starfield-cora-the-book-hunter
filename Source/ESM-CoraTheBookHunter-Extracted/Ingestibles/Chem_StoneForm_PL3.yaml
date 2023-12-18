@@ -1,0 +1,72 @@
+FormKey: 000893:CoraTheBookHunter.esm
+EditorID: Chem_StoneForm_PL3
+ObjectBounds:
+  First: -0.018249206, -0.023864746, -3.0517578E-05
+  Second: 0.018249817, 0.041748047, 0.10332731
+ODTY: 0
+Transforms:
+  InventoryIcon: 02FD73:Starfield.esm
+  Inventory: 0664B2:Starfield.esm
+  Workbench: 2B669B:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: The Stone Form Distillation (Strong)
+Keywords:
+- 0F4AE7:Starfield.esm
+- 11A47A:Starfield.esm
+- 184C3D:Starfield.esm
+- 2CF28A:Starfield.esm
+Model:
+  File: Items\Drugs_Or_Medical\crafted_inhailer_battle_up_01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 2a214c30-f47e-9947-ec5a-ff6684b3db82
+DropdownSound:
+  Start: 669f4b70-1167-a6b1-bad2-79a667a1ed99
+CraftingSound:
+  Start: beb644dc-3806-fc10-b40a-1fd694f5d6b9
+Description:
+  TargetLanguage: English
+  Value: Coming Soon
+Weight: 0.1
+Value: 500
+Flags:
+- NoAutoCalc
+- Medicine
+ConsumeSound:
+  Start: 3cd64f9d-032b-d344-2773-c652c620ef98
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 25A8B6:Starfield.esm
+  Data:
+    Duration: 5
+- BaseEffect: 00083A:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60
+- BaseEffect: 00083B:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60
+- BaseEffect: 00083C:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60
+- BaseEffect: 00083E:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60
+- BaseEffect: 00083D:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60
+- BaseEffect: 000838:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60
+- BaseEffect: 000839:CoraTheBookHunter.esm
+  Data:
+    Magnitude: 700
+    Duration: 60

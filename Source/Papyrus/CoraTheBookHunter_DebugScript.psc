@@ -43,3 +43,29 @@ Function Debug_GetBook_TheReflectingPool() Global
     PlayerRef.AddItem(lb_buffbook as Form, 1, true)
   EndIf
 EndFunction
+
+;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_GetRandomBook" 
+Function Debug_GetRandomBook() Global
+  Actor PlayerRef = Game.GetPlayer()
+  FormList availableBooks = Game.GetFormFromFile(0x77000886, "CoraTheBookHunter.esm") as FormList
+  Book lb_buffbook = availableBooks.GetAt(Utility.RandomInt(0, availableBooks.GetSize())) as Book
+  If (lb_buffbook == None)
+    Debug.MessageBox("Failed to find a random legendary book. Please contact Venpi for help.")
+  Else
+    PlayerRef.AddItem(lb_buffbook as Form, 1, true)
+  EndIf
+EndFunction
+
+;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_GetRandomBook" 
+Function Debug_Current() Global
+  GlobalVariable BookReadCount_GreenFlash = Game.GetFormFromFile(0x7800087F, "CoraTheBookHunter.esm") as GlobalVariable
+  GlobalVariable BookReadCount_StoneForm = Game.GetFormFromFile(0x78000880, "CoraTheBookHunter.esm") as GlobalVariable
+  GlobalVariable BookReadCount_TheReflection = Game.GetFormFromFile(0x78000881, "CoraTheBookHunter.esm") as GlobalVariable
+
+  String message = "Books Read Status\n\n"
+  message += "The Green Flash     = " + BookReadCount_GreenFlash.GetValueInt() + "\n"
+  message += "The Mountain Dwarf  = " + BookReadCount_StoneForm.GetValueInt() + "\n"
+  message += "The Reflecting Pool = " + BookReadCount_TheReflection.GetValueInt() + "\n"
+
+  Debug.MessageBox(message)
+EndFunction

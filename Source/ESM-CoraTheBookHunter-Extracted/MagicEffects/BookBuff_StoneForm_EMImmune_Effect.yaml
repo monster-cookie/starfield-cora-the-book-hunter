@@ -1,0 +1,22 @@
+FormKey: 00083A:CoraTheBookHunter.esm
+EditorID: BookBuff_StoneForm_EMImmune_Effect
+Name:
+  TargetLanguage: English
+  Value: Stone Form - EM Resist
+Keywords:
+- 000836:CoraTheBookHunter.esm
+ActorValue2: 000392:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoArea
+- FXPersist
+- HideInUI
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: Become incredibly resistant to Electromagnetic damage.

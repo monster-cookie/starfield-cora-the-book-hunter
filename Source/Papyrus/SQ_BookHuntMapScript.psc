@@ -5,7 +5,7 @@ ScriptName SQ_BookHuntMapScript Extends ObjectReference
 ;;; Global Variables
 ;;;
 GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
-String Property Venpi_ModName="CoraWantsAllTheBooks" Auto Const Mandatory
+String Property Venpi_ModName="CoraTheBookHunter" Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;

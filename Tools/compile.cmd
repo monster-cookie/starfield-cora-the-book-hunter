@@ -3,13 +3,13 @@
 @REM Get Caprica from https://github.com/Orvid/Caprica currently installed is old manual compile -- v0.3.0 causes a io stream failure
 
 @REM Notepad++/VSCODE needs current working directory to be where Caprica.exe is 
-cd "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Tools"
+cd "C:\Repositories\Public\Starfield Mods\starfield-cora-the-book-hunter\Tools"
 
 @REM Clear Dist DIR
 @echo "Clearing and scafolding the Dist dir"
-del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist\*.*"
-rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
-mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-can-read\Dist"
+del /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-the-book-hunter\Dist\*.*"
+rmdir /s /q "C:\Repositories\Public\Starfield Mods\starfield-cora-the-book-hunter\Dist"
+mkdir "C:\Repositories\Public\Starfield Mods\starfield-cora-the-book-hunter\Dist"
 
 @REM Clear Dist-BA2-Main DIR
 @echo "Clearing and scafolding the Dist-BA2-Main dir"

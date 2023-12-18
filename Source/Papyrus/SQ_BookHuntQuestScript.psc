@@ -5,7 +5,7 @@ ScriptName SQ_BookHuntQuestScript Extends Quest
 ;;; Global Variables
 ;;;
 GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
-String Property Venpi_ModName="CoraWantsAllTheBooks" Auto Const Mandatory
+String Property Venpi_ModName="CoraTheBookHunter" Auto Const Mandatory
 
 GlobalVariable Property ActiveBookHunts Auto Const mandatory ;; Count of active book hunt quests running
 
