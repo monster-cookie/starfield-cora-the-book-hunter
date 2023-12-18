@@ -56,8 +56,8 @@ Function Debug_GetRandomBook() Global
   EndIf
 EndFunction
 
-;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_GetRandomBook" 
-Function Debug_Current() Global
+;; Call using: CGF "CoraTheBookHunter_DebugScript.Debug_CurrentBooksRead" 
+Function Debug_CurrentBooksRead() Global
   GlobalVariable BookReadCount_GreenFlash = Game.GetFormFromFile(0x7800087F, "CoraTheBookHunter.esm") as GlobalVariable
   GlobalVariable BookReadCount_StoneForm = Game.GetFormFromFile(0x78000880, "CoraTheBookHunter.esm") as GlobalVariable
   GlobalVariable BookReadCount_TheReflection = Game.GetFormFromFile(0x78000881, "CoraTheBookHunter.esm") as GlobalVariable
