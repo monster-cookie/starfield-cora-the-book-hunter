@@ -1,5 +1,10 @@
 # V1.1 Beta Permutations
 
+## V1.1.3
+* Books have AI generated stories that match the buff the book provides. 
+* Fixed the buffs not applying after the 1.9.51 Starfield Update.
+* Jump Boost has been removed from the green flash will be added as a separate buff later
+
 ## V1.1.1 (BETA)
 * Removed dependence on Books Revamped these legendary books can't be spawn open world. 
 * Added tracking variables and recipes at 5 collected you get a potion recipe from Cora that is short duration and small magnitude. Will increase again at 10, 25, and cap at 50.

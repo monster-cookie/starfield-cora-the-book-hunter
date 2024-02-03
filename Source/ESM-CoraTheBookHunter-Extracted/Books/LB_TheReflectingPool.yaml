@@ -20,7 +20,7 @@ VirtualMachineAdapter:
       Name: BookReadCount
       Object: 000881:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CoraAgreedToGivePotionRecipies
+      Name: CoraAgreedToGivePotionRecipes
       Object: 00088C:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CoraPotionsAvailable
@@ -40,7 +40,29 @@ Model:
   FLLD: 0x01000000
 Description:
   TargetLanguage: English
-  Value: Coming Soon
+  Value: >-
+    The four adventurers had been exploring the dungeon for hours, hoping to find some treasure or clues to the ancient secrets of the land. They were a diverse group: a human warrior, a dwarf cleric, a halfling rogue, and an elf tamer. They had met in a tavern and decided to join forces for this quest, but they did not trust each other very much.
+
+
+    They reached a large chamber with a pool of water in the center. The water was clear and still, reflecting the ceiling above. The adventurers approached the pool cautiously, wondering if there was anything hidden beneath the surface.
+
+
+    As they looked into the water, they saw something strange. Instead of their own faces, they saw different versions of themselves. The warrior saw himself as a king, wearing a crown and a cloak, surrounded by loyal subjects. The cleric saw himself as a prophet, holding a holy book and a staff, preaching to a crowd of followers. The rogue saw himself as a master thief, holding a sack of gold and jewels, escaping from a palace. The tamer saw herself as a druid, wearing a garland of flowers and a cloak of feathers, commanding a pack of wild animals.
+
+
+    The pool was enchanted, showing them the best possible version of themselves and how to make it happen. The adventurers felt a surge of desire and envy, wanting to become what they saw. They also felt a pang of fear and greed, knowing that the others might want the same thing. They decided to keep their visions secret, pretending to see nothing.
+
+
+    They searched the chamber for an exit, but found none. The only way out was through the pool. They agreed to cross it one by one, hoping to find a passage on the other side. The warrior volunteered to go first, thinking that he could claim the pool for himself once he reached the other side. He stepped into the water, expecting to feel a splash.
+
+
+    But he felt nothing. The water was not water at all, but a mimicking water blob, a creature that could take the shape and color of anything it touched. It had been waiting for prey to come close, luring them with false images. As soon as the warrior entered the pool, the blob wrapped itself around him, suffocating and digesting him.
+
+
+    The other adventurers watched in horror as the warrior disappeared into the pool, leaving no trace. They realized too late that they had fallen into a trap. The pool was not a gateway to their dreams, but a grave for their lives. They tried to run, but the blob was faster. It stretched out its tendrils, grabbing them and pulling them into its mass.
+
+
+    The last thing they saw was their own reflections, distorted and fading, as the blob consumed them.
 Keywords:
 - 11A47A:Starfield.esm
 - 1FC86C:Starfield.esm
@@ -53,4 +75,26 @@ Teaches:
   MutagenObjectType: BookTeachesNothing
 CNAM:
   TargetLanguage: English
-  Value: Coming Soon
+  Value: >-
+    The four adventurers had been exploring the dungeon for hours, hoping to find some treasure or clues to the ancient secrets of the land. They were a diverse group: a human warrior, a dwarf cleric, a halfling rogue, and an elf tamer. They had met in a tavern and decided to join forces for this quest, but they did not trust each other very much.
+
+
+    They reached a large chamber with a pool of water in the center. The water was clear and still, reflecting the ceiling above. The adventurers approached the pool cautiously, wondering if there was anything hidden beneath the surface.
+
+
+    As they looked into the water, they saw something strange. Instead of their own faces, they saw different versions of themselves. The warrior saw himself as a king, wearing a crown and a cloak, surrounded by loyal subjects. The cleric saw himself as a prophet, holding a holy book and a staff, preaching to a crowd of followers. The rogue saw himself as a master thief, holding a sack of gold and jewels, escaping from a palace. The tamer saw herself as a druid, wearing a garland of flowers and a cloak of feathers, commanding a pack of wild animals.
+
+
+    The pool was enchanted, showing them the best possible version of themselves and how to make it happen. The adventurers felt a surge of desire and envy, wanting to become what they saw. They also felt a pang of fear and greed, knowing that the others might want the same thing. They decided to keep their visions secret, pretending to see nothing.
+
+
+    They searched the chamber for an exit, but found none. The only way out was through the pool. They agreed to cross it one by one, hoping to find a passage on the other side. The warrior volunteered to go first, thinking that he could claim the pool for himself once he reached the other side. He stepped into the water, expecting to feel a splash.
+
+
+    But he felt nothing. The water was not water at all, but a mimicking water blob, a creature that could take the shape and color of anything it touched. It had been waiting for prey to come close, luring them with false images. As soon as the warrior entered the pool, the blob wrapped itself around him, suffocating and digesting him.
+
+
+    The other adventurers watched in horror as the warrior disappeared into the pool, leaving no trace. They realized too late that they had fallen into a trap. The pool was not a gateway to their dreams, but a grave for their lives. They tried to run, but the blob was faster. It stretched out its tendrils, grabbing them and pulling them into its mass.
+
+
+    The last thing they saw was their own reflections, distorted and fading, as the blob consumed them.

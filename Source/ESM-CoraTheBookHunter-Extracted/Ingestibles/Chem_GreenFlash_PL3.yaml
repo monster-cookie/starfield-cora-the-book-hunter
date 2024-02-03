@@ -42,10 +42,6 @@ Effects:
 - BaseEffect: 25A8B6:Starfield.esm
   Data:
     Duration: 5
-- BaseEffect: 00082F:CoraTheBookHunter.esm
-  Data:
-    Magnitude: 30
-    Duration: 3600
 - BaseEffect: 000831:CoraTheBookHunter.esm
   Data:
     Magnitude: 30

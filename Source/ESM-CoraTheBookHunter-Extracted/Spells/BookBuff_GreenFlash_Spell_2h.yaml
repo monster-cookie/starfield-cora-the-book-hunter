@@ -15,10 +15,6 @@ Flags:
 - InstantCast
 CastType: FireAndForget
 Effects:
-- BaseEffect: 00082F:CoraTheBookHunter.esm
-  Data:
-    Magnitude: 25
-    Duration: 7200
 - BaseEffect: 000831:CoraTheBookHunter.esm
   Data:
     Magnitude: 25

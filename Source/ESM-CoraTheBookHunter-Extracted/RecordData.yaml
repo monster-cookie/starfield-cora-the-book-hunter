@@ -1,13 +1,13 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Starfield
-  Version: 0.13.0
+  Version: 0.16.0
 ModKey: CoraTheBookHunter.esm
 GameRelease: Starfield
 ModHeader:
   Flags:
   - Master
   Stats:
-    NumRecords: 103
+    NumRecords: 102
     NextFormID: 2209
   Author: ''
   MasterReferences:

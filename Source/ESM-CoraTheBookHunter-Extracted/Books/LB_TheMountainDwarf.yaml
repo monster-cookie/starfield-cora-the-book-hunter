@@ -20,7 +20,7 @@ VirtualMachineAdapter:
       Name: BookReadCount
       Object: 000880:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CoraAgreedToGivePotionRecipies
+      Name: CoraAgreedToGivePotionRecipes
       Object: 00088C:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CoraPotionsAvailable
@@ -40,7 +40,50 @@ Model:
   FLLD: 0x01000000
 Description:
   TargetLanguage: English
-  Value: Coming Soon
+  Value: >-
+    Grimnir was a proud and fearless dwarf, renowned for his stone-like skin that could withstand any weapon or spell. He had fought in many battles and never suffered a scratch. He had explored many dungeons and never felt a sting. He had faced many dangers and never flinched. He was confident that nothing in the world could harm him.
+
+
+    One day, he heard a rumor about a dragon's lair hidden in the mountains. The dragon was said to be ancient and powerful, guarding a vast treasure of gold and jewels. Grimnir was not afraid of the dragon. He was greedy for the treasure. He decided to venture into the lair and claim the riches as his own.
+
+
+    He packed his axe and his shield and set off for the mountains. He followed the trail of smoke and ash that led to the dragon's den. He entered the dark and cavernous tunnel, ignoring the bones and scales that littered the ground. He walked deeper and deeper into the lair, until he reached a large chamber filled with fire and light.
+
+
+    There he saw the dragon, a colossal beast with scales of red and gold, eyes of emerald and flame, and teeth and claws of steel. The dragon was sleeping on a pile of treasure, glittering and sparkling in the firelight. Grimnir felt a surge of greed and excitement. He crept closer to the treasure, hoping to grab some and run before the dragon woke up.
+
+
+    But the dragon was not asleep. It sensed the intruder and opened its eyes. It saw the dwarf and snorted in contempt. It spoke in a deep and thunderous voice:
+
+
+    "Who are you, little worm, to enter my domain and covet my treasure? Do you not know who I am? I am Ragnor, the firelord, the scourge of the skies, the king of dragons. I have lived for a thousand years and seen the rise and fall of empires. I have burned cities and armies to ashes. I have amassed more wealth than any mortal can imagine. And you dare to steal from me?"
+
+
+    Grimnir was not impressed by the dragon's words. He was not intimidated by the dragon's size. He was not scared by the dragon's fire. He was arrogant and foolish. He replied in a defiant and mocking tone:
+
+
+    "I am Grimnir, the stone-skin, the fearless, the invincible. I have faced many foes and none have harmed me. I have explored many lands and none have stopped me. I have sought many treasures and none have eluded me. I do not care who you are or what you have done. You are just a big lizard with a lot of gold. And I am here to take it from you."
+
+
+    The dragon was enraged by the dwarf's insolence. It roared and unleashed a blast of fire at the dwarf. Grimnir raised his shield and braced for the impact. He expected the fire to bounce off his skin like water. He expected to laugh at the dragon's futile attempt. He expected to charge at the dragon and strike it with his axe.
+
+
+    But he was wrong.
+
+
+    The fire was not like any fire he had ever seen. It was not orange or yellow, but white and blue. It was not warm or hot, but scorching and searing. It was not a flame or a jet, but a beam or a laser. It was the dragon's ultimate weapon, the fire of the sun.
+
+
+    The fire hit the dwarf and pierced through his shield. It hit his skin and melted through his flesh. It hit his bones and vaporized his marrow. It hit his heart and incinerated his soul. In a matter of seconds, the dwarf was reduced to a pile of ash.
+
+
+    The dragon looked at the ash and snorted in disdain. It spoke in a cold and scornful voice:
+
+
+    "That was Grimnir, the stone-skin, the fearless, the invincible. He faced me and I harmed him. He explored my lair and I stopped him. He sought my treasure and I eluded him. He learned too late that nothing in the world is impervious to my fire. He learned too late that I am Ragnor, the firelord, the scourge of the skies, the king of dragons."
+
+
+    The dragon closed its eyes and resumed its sleep. It forgot about the dwarf and dreamed of more treasure.
 Keywords:
 - 11A47A:Starfield.esm
 - 1FC86C:Starfield.esm
@@ -53,4 +96,47 @@ Teaches:
   MutagenObjectType: BookTeachesNothing
 CNAM:
   TargetLanguage: English
-  Value: Coming Soon
+  Value: >-
+    Grimnir was a proud and fearless dwarf, renowned for his stone-like skin that could withstand any weapon or spell. He had fought in many battles and never suffered a scratch. He had explored many dungeons and never felt a sting. He had faced many dangers and never flinched. He was confident that nothing in the world could harm him.
+
+
+    One day, he heard a rumor about a dragon's lair hidden in the mountains. The dragon was said to be ancient and powerful, guarding a vast treasure of gold and jewels. Grimnir was not afraid of the dragon. He was greedy for the treasure. He decided to venture into the lair and claim the riches as his own.
+
+
+    He packed his axe and his shield and set off for the mountains. He followed the trail of smoke and ash that led to the dragon's den. He entered the dark and cavernous tunnel, ignoring the bones and scales that littered the ground. He walked deeper and deeper into the lair, until he reached a large chamber filled with fire and light.
+
+
+    There he saw the dragon, a colossal beast with scales of red and gold, eyes of emerald and flame, and teeth and claws of steel. The dragon was sleeping on a pile of treasure, glittering and sparkling in the firelight. Grimnir felt a surge of greed and excitement. He crept closer to the treasure, hoping to grab some and run before the dragon woke up.
+
+
+    But the dragon was not asleep. It sensed the intruder and opened its eyes. It saw the dwarf and snorted in contempt. It spoke in a deep and thunderous voice:
+
+
+    "Who are you, little worm, to enter my domain and covet my treasure? Do you not know who I am? I am Ragnor, the firelord, the scourge of the skies, the king of dragons. I have lived for a thousand years and seen the rise and fall of empires. I have burned cities and armies to ashes. I have amassed more wealth than any mortal can imagine. And you dare to steal from me?"
+
+
+    Grimnir was not impressed by the dragon's words. He was not intimidated by the dragon's size. He was not scared by the dragon's fire. He was arrogant and foolish. He replied in a defiant and mocking tone:
+
+
+    "I am Grimnir, the stone-skin, the fearless, the invincible. I have faced many foes and none have harmed me. I have explored many lands and none have stopped me. I have sought many treasures and none have eluded me. I do not care who you are or what you have done. You are just a big lizard with a lot of gold. And I am here to take it from you."
+
+
+    The dragon was enraged by the dwarf's insolence. It roared and unleashed a blast of fire at the dwarf. Grimnir raised his shield and braced for the impact. He expected the fire to bounce off his skin like water. He expected to laugh at the dragon's futile attempt. He expected to charge at the dragon and strike it with his axe.
+
+
+    But he was wrong.
+
+
+    The fire was not like any fire he had ever seen. It was not orange or yellow, but white and blue. It was not warm or hot, but scorching and searing. It was not a flame or a jet, but a beam or a laser. It was the dragon's ultimate weapon, the fire of the sun.
+
+
+    The fire hit the dwarf and pierced through his shield. It hit his skin and melted through his flesh. It hit his bones and vaporized his marrow. It hit his heart and incinerated his soul. In a matter of seconds, the dwarf was reduced to a pile of ash.
+
+
+    The dragon looked at the ash and snorted in disdain. It spoke in a cold and scornful voice:
+
+
+    "That was Grimnir, the stone-skin, the fearless, the invincible. He faced me and I harmed him. He explored my lair and I stopped him. He sought my treasure and I eluded him. He learned too late that nothing in the world is impervious to my fire. He learned too late that I am Ragnor, the firelord, the scourge of the skies, the king of dragons."
+
+
+    The dragon closed its eyes and resumed its sleep. It forgot about the dwarf and dreamed of more treasure.

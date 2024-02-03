@@ -20,7 +20,7 @@ VirtualMachineAdapter:
       Name: BookReadCount
       Object: 00087F:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
-      Name: CoraAgreedToGivePotionRecipies
+      Name: CoraAgreedToGivePotionRecipes
       Object: 00088C:CoraTheBookHunter.esm
     - MutagenObjectType: ScriptObjectProperty
       Name: CoraPotionsAvailable
@@ -40,7 +40,7 @@ Model:
   FLLD: 0x01000000
 Description:
   TargetLanguage: English
-  Value: Coming Soon
+  Value: Zara was not like the other xenomorphs. She was smaller, weaker, and slower than her siblings. She was always picked on and bullied by the bigger and stronger ones. She felt like she didn't belong to the hive.
 Keywords:
 - 11A47A:Starfield.esm
 - 1FC86C:Starfield.esm
@@ -53,4 +53,29 @@ Teaches:
   MutagenObjectType: BookTeachesNothing
 CNAM:
   TargetLanguage: English
-  Value: Coming Soon
+  Value: >-
+    Zara was not like the other xenomorphs. She was smaller, weaker, and slower than her siblings. She was always picked on and bullied by the bigger and stronger ones. She felt like she didn't belong to the hive.
+
+
+    But Zara had a secret. She had discovered that she could move faster than light. She didn't know how or why, but whenever she felt scared or threatened, she could vanish in a blink of an eye and reappear somewhere else. She could barely control this ability, and sometimes she ended up in places she didn't want to be. But she also found it fun and exciting to explore new worlds and see new things.
+
+
+    Zara had a dream. She wanted to spread her royal eggs across the galaxy and create a new hive of her own. She wanted to be a queen, like her mother. She wanted to be respected and admired by her children. She wanted to be happy.
+
+
+    One day, she decided to act on her dream. She stole some of her mother's eggs and hid them in a secret place. Then she waited for the right moment to escape. She saw a group of humans enter the hive, armed with guns and flamethrowers. They were here to destroy the xenomorphs. Zara saw her chance. She sneaked behind them and followed them to their ship. She waited until they were all inside and then she moved faster than light. She entered the ship and hid in a dark corner. She felt the ship take off and fly away from the planet.
+
+
+    Zara smiled. She had done it. She had escaped. She looked at the eggs she had brought with her. She knew she had to find a safe place to plant them. She knew she had to be careful and avoid detection. She knew she had to be smart and cunning. She knew she had to be brave and bold.
+
+
+    She was ready.
+
+
+    She moved faster than light.
+
+
+    She left a trail of green flashes behind her.
+
+
+    She was the little xenomorph that could.

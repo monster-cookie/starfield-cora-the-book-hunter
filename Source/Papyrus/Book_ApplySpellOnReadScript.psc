@@ -8,7 +8,7 @@ GlobalVariable Property Venpi_DebugEnabled Auto Const Mandatory
 String Property Venpi_ModName="CoraTheBookHunter" Auto Const Mandatory
 
 GlobalVariable Property BookReadCount Auto Const Mandatory
-GlobalVariable Property CoraAgreedToGivePotionRecipies Auto Const Mandatory
+GlobalVariable Property CoraAgreedToGivePotionRecipes Auto Const Mandatory
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;
@@ -34,14 +34,14 @@ EndEvent
 
 Event OnRead()
   If (Game.GetDieRollSuccess(80, 1, 100, -1, -1))
-    Spell spellToCast = FL_AvailableSpells.GetAt(Utility.RandomInt(0, FL_AvailableSpells.GetSize())) as Spell
+    Spell spellToCast = FL_AvailableSpells.GetAt(Utility.RandomInt(0, FL_AvailableSpells.GetSize()-1)) as Spell
     self.CastOrAddSpell(spellToCast, PlayerRef, PlayerRef, False)
     BookReadCount.SetValueInt(BookReadCount.GetValueInt() + 1)
     VPI_Debug.DebugMessage(Venpi_ModName, "Book_ApplySpellOnReadScript", "OnRead", "Event OnRead Triggered. Applied spell " + spellToCast + ".", 0, Venpi_DebugEnabled.GetValueInt())
-    If (BookReadCount.GetValueInt() >= 5 && CoraAgreedToGivePotionRecipies.GetValueInt() == 0)
-      ;; Display message from Cora about loading distilled potion recipies on the chemistry bench
+    If (BookReadCount.GetValueInt() >= 5 && CoraAgreedToGivePotionRecipes.GetValueInt() == 0)
+      ;; Display message from Cora about loading distilled potion recipes on the chemistry bench
       CoraPotionsAvailable.Show(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-      CoraAgreedToGivePotionRecipies.SetValueInt(1)
+      CoraAgreedToGivePotionRecipes.SetValueInt(1)
     EndIf
   Else
     self.CastOrAddSpell(SpellToApplyOnFailure, PlayerRef, PlayerRef, True)
